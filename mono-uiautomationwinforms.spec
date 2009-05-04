@@ -11,6 +11,7 @@ BuildRequires:	mono-devel >= 2.4
 BuildRequires:	mono-uia >= 1.0
 BuildRequires:	glib-sharp2
 BuildRequires:	gtk-sharp2
+BuildRequires:	intltool >= 0.35.0
 Summary:	Implementation of Microsoft's UI Automation specification
 Group:		Development/Other
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
