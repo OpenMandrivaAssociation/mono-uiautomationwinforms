@@ -1,14 +1,14 @@
 %define oname uiautomationwinforms
 
 Name:     	mono-%{oname}
-Version:	0.9.1
+Version:	1.0
 Release:	%mkrel 1
 License:	MIT or X11
 URL:		http://www.mono-project.com/Accessibility
-Source0:	ftp://ftp.novell.com/pub/mono/uia/%{version}/%{oname}-%{version}.tar.bz2
+Source0:	http://ftp.novell.com/pub/mono/sources/uiautomationwinforms/%{oname}-%{version}.tar.bz2
 BuildArch:	noarch
-BuildRequires:	mono-devel >= 2.2
-BuildRequires:	mono-uia >= 0.9
+BuildRequires:	mono-devel >= 2.4
+BuildRequires:	mono-uia >= 1.0
 BuildRequires:	glib-sharp2
 BuildRequires:	gtk-sharp2
 Summary:	Implementation of Microsoft's UI Automation specification
