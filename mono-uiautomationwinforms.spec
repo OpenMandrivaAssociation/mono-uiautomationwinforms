@@ -32,10 +32,12 @@ make
 rm -rf %buildroot
 %makeinstall_std
 
+%find_lang UIAutomationWinforms
+
 %clean
 rm -rf %buildroot
 
-%files
+%files -f UIAutomationWinforms.lang
 %defattr(-, root, root)
 %_prefix/lib/mono/gac/UIAutomationWinforms
 %_prefix/lib/uiautomationwinforms
