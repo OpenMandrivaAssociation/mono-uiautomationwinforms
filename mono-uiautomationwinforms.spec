@@ -1,14 +1,14 @@
 %define oname uiautomationwinforms
 
 Name:     	mono-%{oname}
-Version:	1.0
+Version:	2.0
 Release:	%mkrel 1
 License:	MIT or X11
-URL:		http://www.mono-project.com/Accessibility
-Source0:	http://ftp.novell.com/pub/mono/sources/uiautomationwinforms/%{oname}-%{version}.tar.bz2
+URL:		http://www.mono-a11y.org/
+Source0:	http://mono-a11y.org/releases/2.0/sources/%{oname}-%{version}.tar.bz2
 BuildArch:	noarch
 BuildRequires:	mono-devel >= 2.4
-BuildRequires:	mono-uia >= 1.0
+BuildRequires:	mono-uia >= 2.0
 BuildRequires:	glib-sharp2
 BuildRequires:	gtk-sharp2
 BuildRequires:	intltool >= 0.35.0
