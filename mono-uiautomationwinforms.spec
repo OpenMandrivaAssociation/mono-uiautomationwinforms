@@ -1,11 +1,11 @@
 %define oname uiautomationwinforms
 
 Name:     	mono-%{oname}
-Version:	2.0
+Version:	2.1
 Release:	%mkrel 1
 License:	MIT or X11
 URL:		http://www.mono-a11y.org/
-Source0:	http://mono-a11y.org/releases/2.0/sources/%{oname}-%{version}.tar.bz2
+Source0:	http://mono-a11y.org/releases/%{version}/sources/%{oname}-%{version}.tar.bz2
 BuildArch:	noarch
 BuildRequires:	mono-devel >= 2.4
 BuildRequires:	mono-uia >= 2.0
